@@ -1,0 +1,75 @@
+
+<div class="form-group">
+<label class="control-label col-md-4">Qualification:</label>
+<div class="col-md-8">
+<select class="form-control" ng-options="q  for q in qualification" name="qualification" ng-model="data.qualification" id="sel1">
+<option value="">Select your Highest Qualification</option>
+
+</select>
+</div>
+
+</div>
+
+<div class="form-group">
+<label class="control-label col-md-4">Specialization:</label>
+<div class="col-md-8">
+<select class="form-control" ng-options="c for c in course" name="course" ng-model="data.course" id="sel1">    <option value="">Select your Specialization</option>  </select>
+</div>
+</div>
+
+<div class="form-group">
+<label class="control-label col-md-4">Institute Name:</label>
+<div class="col-md-8">
+<input type="text" class="form-control" ng-model="data.institute"  name="institute" placeholder="Institute name" >
+</div>  
+</div>
+<div class="form-group">
+<label class="control-label col-md-4">Course Type:</label>
+<div class="col-md-8">
+<select class="form-control" ng-options="ct for ct in coursetype" name="coursetype" ng-model="data.coursetype" id="sel1">
+<option value="">Select your Course Type</option>
+</select>
+</div>
+
+</div>
+<div class="form-group">
+<label class="control-label col-md-4">Year of passing:</label>
+<div class="col-md-8">
+<select class="form-control" ng-options="p for p in passedout" name="passedout" ng-model="data.passedout" id="sel1">
+<option value="">Passing Year</option>
+
+</select>
+</div>
+</div>
+<div class="col-md-3 form-group pull-right">
+        <a ui-sref="form.completed" ><button class="btn btn-block btn-info">Next Section </button></a>
+    </div>
+
+<!-- <div class="text-center">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" name="name" ng-model="formData.name">
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" name="email" ng-model="formData.email">
+    </div>
+<label>What's Your Console of Choice?</label>
+<div class="form-group">
+    <div class="radio">
+        <label>
+           <input type="radio" ng-model="formData.type" value="xbox" checked>
+           I like XBOX
+        </label>
+    </div>
+    <div class="radio">
+        <label>
+            <input type="radio" ng-model="formData.type" value="ps">
+            I like PS4
+        </label>
+    </div>
+</div>
+ <button type="submit" class="btn btn-danger">Submit</button>
+
+</div> -->
